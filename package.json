@@ -1,6 +1,6 @@
 {
   "name": "is-gas",
-  "version": "0.0.2",
+  "version": "0.0.3.beta",
   "description": "Check platform for Google Apps Script",
   "main": "dist/index.js",
   "repository": "https://github.com/eiel/is-gas",
