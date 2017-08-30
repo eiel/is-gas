@@ -1,4 +1,6 @@
 # is-gas
+[![npm version](https://badge.fury.io/js/is-gas.svg)](https://badge.fury.io/js/is-gas)
+
 Check Platform for Google Apps Script
 
 # Install
