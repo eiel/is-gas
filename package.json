@@ -1,6 +1,6 @@
 {
   "name": "is-gas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check platform for Google Apps Script",
   "main": "dist/index.js",
   "repository": "https://github.com/eiel/is-gas",
@@ -8,6 +8,9 @@
   "license": "MIT",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "Google", "Apps", "Script"
   ],
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
