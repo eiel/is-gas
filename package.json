@@ -1,0 +1,22 @@
+{
+  "name": "is-gas",
+  "version": "0.0.1",
+  "description": "Check platform for Google Apps Script",
+  "main": "dist/index.js",
+  "repository": "https://github.com/eiel/is-gas",
+  "author": "Tomohiko Himura <eiel.hal@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
+    "deploy": "yarn clean && yarn build && npm publish",
+    "build": "yarn build:flow && yarn build:js",
+    "build:js": "babel src --out-dir dist",
+    "build:flow": "flow gen-flow-files src --out-dir dist"
+  },
+  "devDependencies": {
+    "babel-preset-flow": "^6.23.0"
+  }
+}
