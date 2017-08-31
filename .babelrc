@@ -1,3 +1,11 @@
 {
-  "presets": ["env", "flow"],
+  "presets": [
+    "flow",
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ]
+  ]
 }
