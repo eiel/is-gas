@@ -27,6 +27,6 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-flow": "6.23.0",
     "rollup": "0.63.2",
-    "rollup-plugin-babel": "3.0.7"
+    "rollup-plugin-babel": "4.4.0"
   }
 }
